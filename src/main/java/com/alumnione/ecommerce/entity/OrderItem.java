@@ -20,4 +20,10 @@ public class OrderItem {
     private Date order_date;
     private Float total_price;
 
+    @ManyToOne
+    private Order order;
+
+    @ManyToOne
+    private Product product;
+
 }

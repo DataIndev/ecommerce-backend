@@ -29,4 +29,13 @@ public class Order {
 
     private String checkSum;
 
+    @ManyToOne
+    private Customer customer;
+
+    @ManyToOne
+    private Payment payment;
+
+    @ManyToOne
+    private Shipment shipment;
+
 }

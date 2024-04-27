@@ -22,4 +22,7 @@ public class Shipment {
     private String country;
     private String zip_code;
     private String checkSum;
+
+    @ManyToOne
+    private Customer customer;
 }

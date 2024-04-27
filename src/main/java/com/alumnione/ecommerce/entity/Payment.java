@@ -19,4 +19,7 @@ public class Payment {
     private String paymentType;
 
     private String checkSum;
+
+    @ManyToOne
+    private Customer customer;
 }
