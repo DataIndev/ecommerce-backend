@@ -21,7 +21,7 @@ public class Product {
     private float price;
     private int stock;
 
-    @ManyToOne
+    @ManyToOne(optional = false)
     private Category category;
 
     @JsonRawValue

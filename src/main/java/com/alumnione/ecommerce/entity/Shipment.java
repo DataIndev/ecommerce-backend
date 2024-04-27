@@ -23,6 +23,6 @@ public class Shipment {
     private String zip_code;
     private String checkSum;
 
-    //ManyToOne
+    @ManyToOne
     private Customer customer;
 }

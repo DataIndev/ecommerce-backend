@@ -20,6 +20,6 @@ public class Payment {
 
     private String checkSum;
 
-    //ManyToOne
+    @ManyToOne
     private Customer customer;
 }

@@ -24,10 +24,10 @@ public class Cart {
 
     private String checkSum;
 
-    //ManyToOne
+    @ManyToOne
     private Product product;
 
-    //ManyToOne
+    @ManyToOne
     private Customer customer;
 
 
