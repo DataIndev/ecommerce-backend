@@ -1,23 +1,15 @@
 package com.alumnione.ecommerce.service;
 
 import com.alumnione.ecommerce.dto.CartDto;
-import com.alumnione.ecommerce.dto.ProductDto;
 import com.alumnione.ecommerce.entity.Cart;
-import com.alumnione.ecommerce.entity.Cellphone;
-import com.alumnione.ecommerce.entity.Product;
 import com.alumnione.ecommerce.repository.CartRepository;
-import com.alumnione.ecommerce.repository.CellphoneRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 @RequiredArgsConstructor
