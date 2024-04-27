@@ -23,4 +23,12 @@ public class Cart {
     private LocalDateTime lastUpdated;
 
     private String checkSum;
+
+    //ManyToOne
+    private Product product;
+
+    //ManyToOne
+    private Customer customer;
+
+
 }
